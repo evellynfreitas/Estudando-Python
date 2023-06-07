@@ -48,3 +48,14 @@ for i in range(1,11):
 print("3° for") # 10 até 1
 for i in range(10,0,-1):
     print(i)
+
+print("---------------------------------------")
+
+#Estruturas de Repetição: WHILE
+
+x = 0;
+
+while x<5:
+    print(x)
+    x = x+1
+    
