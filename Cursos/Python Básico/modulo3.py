@@ -15,3 +15,10 @@ print(nome, "é do tipo:",type(nome))
 # boolean
 contratado = True
 print(contratado, "é do tipo:",type(contratado))
+
+print("---------------------------------------")
+
+print("Código: %d" %codigo)
+print("Nome: %s" %nome)
+print("Salário: %.2f" %salario)
+print("Contratado: %r" %contratado)
