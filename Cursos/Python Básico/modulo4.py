@@ -22,5 +22,14 @@ if idade >= 18:
 else:
     print("menor de idade")
 
+idade = 10
+
+if idade >= 18:
+    print("maior de idade")
+    print("pode dirigir")
+    print("pode viajar sozinho")
+else:
+    print("menor de idade")
+    print("não pode dirigir")
     print("não pode viajar sozinho")
 
