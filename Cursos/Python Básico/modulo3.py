@@ -22,3 +22,11 @@ print("Código: %d" %codigo)
 print("Nome: %s" %nome)
 print("Salário: %.2f" %salario)
 print("Contratado: %r" %contratado)
+
+print("---------------------------------------")
+
+codigo = int(input("Digite o código: "))
+nome = input("Digite o nome: ")
+salario = float(input("Digite o salário: "))
+
+print("O funcionário %s possui código %d e recebe R$ %.2f" %(nome,codigo,salario))
