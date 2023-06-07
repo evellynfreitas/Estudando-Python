@@ -11,4 +11,16 @@ print("A é menor que B e C? ", A < B and A < C)
 print("C é divisível por B? ", C % B == 0)
 print("D é divisível por A e B? ", D % B == 0 and D % A == 0)
 print("E é igual a A ou a B?", E == A or E == B)
-print("---------------------------------------\n\n")
+print("---------------------------------------")
+
+#Estruturas de Decisão
+
+idade = 19
+
+if idade >= 18:
+    print("maior de idade")
+else:
+    print("menor de idade")
+
+    print("não pode viajar sozinho")
+
