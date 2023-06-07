@@ -15,14 +15,14 @@ print("---------------------------------------")
 
 #Estruturas de Decisão
 
-idade = 19
+idade = 10
 
 if idade >= 18:
     print("maior de idade")
 else:
     print("menor de idade")
 
-idade = 10
+idade = 19
 
 if idade >= 18:
     print("maior de idade")
@@ -32,4 +32,11 @@ else:
     print("menor de idade")
     print("não pode dirigir")
     print("não pode viajar sozinho")
+
+print("---------------------------------------")
+
+#Estruturas de Repetição
+
+for i in range(10):
+    print(i)
 
