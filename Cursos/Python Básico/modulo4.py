@@ -37,6 +37,14 @@ print("---------------------------------------")
 
 #Estruturas de Repetição
 
+print("1° for ") # 0 até 9
 for i in range(10):
     print(i)
-
+    
+print("2° for") # 1 até 10
+for i in range(1,11):
+    print(i)
+    
+print("3° for") # 10 até 1
+for i in range(10,0,-1):
+    print(i)
