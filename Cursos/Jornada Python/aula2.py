@@ -3,7 +3,8 @@ import pyautogui
 import time
 import pandas
 
-pyautogui.press('win')
+pyautogui.press("win")
+time.sleep(5)
 pyautogui.write('chrome')
 pyautogui.press('enter')
 
